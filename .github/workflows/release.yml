@@ -1,12 +1,7 @@
 
 name: Release
 on:
-  schedule:
-    - cron: "5 */12 * * *"
-  push:
-    branches:
-      - "master"
-
+  workflow_dispatch
 
 jobs:
   Build:
